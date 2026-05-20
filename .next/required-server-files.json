@@ -9,7 +9,7 @@
     "typedRoutes": false,
     "distDir": ".next",
     "cleanDistDir": true,
-    "assetPrefix": "/NOMBRE_REPO/",
+    "assetPrefix": "/gim-ia/",
     "cacheMaxMemorySize": 52428800,
     "configOrigin": "next.config.ts",
     "useFileSystemPublicRoutes": true,
@@ -42,7 +42,7 @@
         256,
         384
       ],
-      "path": "/NOMBRE_REPO/_next/image",
+      "path": "/gim-ia/_next/image",
       "loader": "default",
       "loaderFile": "",
       "domains": [],
@@ -77,7 +77,7 @@
       "maxInactiveAge": 60000,
       "pagesBufferLength": 5
     },
-    "basePath": "/NOMBRE_REPO",
+    "basePath": "/gim-ia",
     "sassOptions": {},
     "trailingSlash": false,
     "i18n": null,

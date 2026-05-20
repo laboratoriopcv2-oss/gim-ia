@@ -3,16 +3,16 @@
   "pages404": true,
   "appType": "app",
   "caseSensitive": false,
-  "basePath": "/NOMBRE_REPO",
+  "basePath": "/gim-ia",
   "redirects": [
     {
-      "source": "/NOMBRE_REPO/",
-      "destination": "/NOMBRE_REPO",
+      "source": "/gim-ia/",
+      "destination": "/gim-ia",
       "basePath": false,
       "internal": true,
       "priority": true,
       "statusCode": 308,
-      "regex": "^/NOMBRE_REPO/$"
+      "regex": "^/gim-ia/$"
     },
     {
       "source": "/:path+/",
@@ -28,9 +28,9 @@
   "rewrites": {
     "beforeFiles": [
       {
-        "source": "/NOMBRE_REPO//_next/:path+",
-        "destination": "/NOMBRE_REPO/_next/:path+",
-        "regex": "^/NOMBRE_REPO//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
+        "source": "/gim-ia//_next/:path+",
+        "destination": "/gim-ia/_next/:path+",
+        "regex": "^/gim-ia//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
       }
     ],
     "afterFiles": [],

@@ -3,8 +3,8 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/NOMBRE_REPO//_next/:path+",
-        "destination": "/NOMBRE_REPO/_next/:path+"
+        "source": "/gim-ia//_next/:path+",
+        "destination": "/gim-ia/_next/:path+"
       }
     ],
     "fallback": []
