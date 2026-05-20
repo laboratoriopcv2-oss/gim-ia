@@ -1,14 +1,14 @@
-/** @type {import('next').NextConfig} */
+import type { NextConfig } from "next";
 
-const repoName = 'NOMBRE_REPO';
+const nextConfig: NextConfig = {
+  output: "export",
 
-const nextConfig = {
-  output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? `/${repoName}` : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? `/${repoName}/` : '',
+  basePath: process.env.NODE_ENV === "production" ? "/gim-ia" : "",
+  assetPrefix: process.env.NODE_ENV === "production" ? "/gim-ia/" : "",
+
   images: {
     unoptimized: true,
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
